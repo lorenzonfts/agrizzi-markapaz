@@ -1049,7 +1049,10 @@ comece agora!
         <form id="form" action="https://api.staticforms.xyz/submit" method="POST"> <!-- Formulário importante-->
           <input type="hidden" name="accessKey" value="6d913e44-7b79-4578-897f-2227c209fe97">
           <input type="hidden" name="redirectTo" value="https:///agrizzi-markapaz.vercel.app">
-          <h3 class="title">Cassdastre-se</h3>
+
+     
+          <h3 class="title">Cadastre-se</h3>
+          <div class="pai">
           <div class="input-container">
 
           <input placeholder="Nome" type="name" name="name" class="input" required/>
@@ -1064,13 +1067,22 @@ comece agora!
             <input placeholder="Número de celular" type="tel" name="$celular" class="input" required/>
 
           </div>
-
+        </div>
           
           <input type="submit" value="Enviar" id="btn"/>
+        
           </form>
 
           <style>
+            
+            .pai {
+              width: 100%;
+              /* padding: ; */
+            }
 
+            input {
+              width: 100%;
+            }
             input::placeholder{
               color: white;
             }
@@ -1144,7 +1156,7 @@ form {
 }
 
 .input {
-  width: 100%;
+  width: 97%;
   outline: none;
   border: 2px solid #fafafa;
   background: none;
@@ -1418,7 +1430,7 @@ form {
   }
 
   .input {
-    padding: 0.45rem 1.2rem;
+    padding: 0.45rem 0.2rem;
   }
 
   .btn {
